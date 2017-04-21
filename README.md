@@ -10,7 +10,7 @@
 - 简书博客：[NathanYangcn](http://www.jianshu.com/u/8106ed4aae34)
 
 ## 专业技能
-- 熟悉HTML、CSS，能够使用和编译less，熟悉常见布局方式，熟悉编码规范和语义化。
+- 熟悉HTML,CSS，能够使用和编译less，熟悉常见布局方式，熟悉编码规范和语义化。
 - 熟悉原生JS、jQuery，能够使用jQuery改写原生JS文件，能够使用面向对象的方式编程。
 - 熟悉HTTP协议、Ajax、跨域等技术，能够依据约定的接口与服务端进行数据交互、协同开发。
 - 基本掌握npm、webpack、gulp，能够自行配置前端工程化开发环境。
@@ -36,7 +36,7 @@
 ##### 项目收获
 - 该项目大致经历三个版本：第一个版本注重实现播放器的各种功能，第二个版本更新播放器UI界面，第三个版本主要精力在于使用更多技术进行内部代码优化。其中一个问题就是歌词功能的实现，经过资料查阅与思考我认为读懂歌词数据、并将每句歌词按照规律拆分开来是实现歌词展示的重点。当与服务器交互涉及到跨域问题时，便深入理解了浏览器的同源策略和跨域获取数据的原理，并将其总结为[简书文章](http://www.jianshu.com/p/0446b5bcdbab)。在对代码进行优化时，使用面向对象的编程方式对代码进行了封装，避免污染全局变量，增加代码的复用性和可维护性。开发过程中，使用webpack和npm script搭建自动化流程，当使用less修改css文件时，不需手动执行编译命令即可自动编译，使得开发过程变得简单智能。
 ##### 项目预览
-- [[代码地址](http://htmlpreview.github.io/?https://github.com/NathanYangcn/fm-music-player/blob/master/index.html)]   [[项目代码](https://github.com/NathanYangcn/fm-music-player)]
+- [[预览地址](http://htmlpreview.github.io/?https://github.com/NathanYangcn/fm-music-player/blob/master/index.html)]   [[代码地址](https://github.com/NathanYangcn/fm-music-player)]
 
 ### 2. 线上便签网站（一个月）
 ##### 简介
@@ -54,7 +54,7 @@
 ##### 项目收获
 - 该项目使我对网站的整体框架、前后端整体开发流程、前后端协同开发、前端工程化有了一定的认识。前后端唯一交互便是接口，所以约定接口和开发联调是重要步骤。使用express的中间件和路由进行后端开发，使我明白了后端处理请求的逻辑；使用数据库存储数据，了解到模型以及如何定义一个数据表结构；以及使用模板引擎，从而理解MVC的概念。当使用webpack配置自动化流程时，引入的jQuery不起作用，通过对比排查得知jQuery.1.9.1等较低版本是不支持webpack的，需要引入新版本方可生效。
 ##### 项目预览
-- 还未部署不可查看[[预览地址]()]   [[代码地址]()]
+- [[预览地址](http://yangyoung.top/)]   [[代码地址](https://github.com/NathanYangcn/sticky-notes)]
 
 ### 3. npm天气预报工具包
 ### 4. npm中英互译工具包
